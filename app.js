@@ -1,7 +1,7 @@
 // Replace with your Netlify function endpoint
 // Example: if your site is at https://my-netlify-demo.netlify.app,
 // the function URL might be https://my-netlify-demo.netlify.app/.netlify/functions/generate
-const NETLIFY_FUNCTION_URL = "https://<YOUR_NETLIFY_SITE>.netlify.app/.netlify/functions/generate";
+const NETLIFY_FUNCTION_URL = "https://improvement-rpg.netlify.app/.netlify/functions/generate";
 
 const goalInput = document.getElementById("goal-input");
 const generateQuestsBtn = document.getElementById("generate-quests-btn");
