@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #111;
+  color: #eee;
+}
+
+h1, h2 {
+  color: #ffcc00;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+#goal-input {
+  width: 300px;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #444;
+  color: #ffcc00;
+  border: 1px solid #888;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+
+/* Spinner */
+.spinner {
+  border: 6px solid #333; /* Dark background */
+  border-top: 6px solid #ffcc00; /* highlight color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 20px auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Tarot-Style Card */
+.quest-card {
+  background-color: #222;
+  width: 300px;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.quest-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ffcc00;
+}
+
+.quest-card h3 {
+  margin: 10px 0 5px 0;
+  color: #ffcc00;
+}
+
+.quest-card p {
+  margin: 0 10px 10px 10px;
+}
+
+.select-btn {
+  margin-top: auto;
+  padding: 6px 12px;
+  background-color: #444;
+  color: #ffcc00;
+  border: 1px solid #888;
+  cursor: pointer;
+}
+.select-btn:hover {
+  background-color: #555;
+}

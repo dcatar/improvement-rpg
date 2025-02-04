@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dark Fantasy Self-Improvement RPG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Dark Fantasy Self-Improvement RPG</h1>
+
+  <div class="section">
+    <label for="goal-input">Enter Your Goal:</label>
+    <input type="text" id="goal-input" placeholder="e.g., Improve public speaking" />
+    <button id="generate-quests-btn">Generate Quests</button>
+  </div>
+
+  <!-- Loading Spinner -->
+  <div id="spinner" class="spinner" style="display: none;"></div>
+
+  <div class="section" id="story-section" style="display: none;">
+    <h2>Story Introduction</h2>
+    <p id="story-text"></p>
+  </div>
+
+  <div class="cards-container" id="cards-container" style="display: none;"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
